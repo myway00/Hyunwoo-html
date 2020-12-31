@@ -1,0 +1,93 @@
+.menu{
+    display: flex;
+    justify-content : space-around;   
+}
+.menu li {
+    margin-top: 30px;
+    padding : 50px; 
+}
+
+a{
+    text-decoration : none;
+    font-style: normal;
+    color : black;
+}
+
+.ccl{
+    float : left; 
+    margin-left:0;
+    width : 100px;
+    height: 20;
+}
+.floor{
+    border-top: black 1px solid;
+}
+
+#topmenu{
+    list-style: none;
+    display : flex;
+    justify-content: space-between;
+  }
+
+.head{
+    display : flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.courses_logo{
+    padding : 30px;
+    display : flex;
+}
+
+.search{
+    display : flex;   
+    width: 200px;
+    height: 30px;
+    padding : 60px;
+    margin-left: 30;
+}
+
+.video{
+    display : flex;
+    padding : 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo{
+    padding :20px;
+}
+
+
+h1{
+    font-size: 3rem;
+
+}
+
+h3{
+    text-align: center;
+}
+
+.videos {
+    padding : 30px;
+    margin : 20PX;
+    border : solid 5px gray ;
+    align-content: center;
+}
+
+.login{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.information{
+    padding : 20px;
+    margin-left : 20px;
+}
+.member{
+    margin-bottom: 30px;
+}
+
+ 
