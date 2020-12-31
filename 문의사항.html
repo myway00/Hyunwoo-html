@@ -23,15 +23,18 @@
             <li><a href = '공지사항.html'>공지사항</a></li>
             <li><a href = '문의사항.html'>문의사항</a></li>
             <li><a href = '커뮤니티.html' >커뮤니티</a></li>
-            <li><a href = '열린게시판.html' >열린게시판</a></li>
+       
             <li><a href = '동방vr.html' >동방vr체험</a></li>
        
        </div>
     
         <div class ='login'>
-            <a href ='로그인창.html' >
-        <img src = 'login.png' width=70 length=70 > 
-            </a>
+            <div class ='login'>
+                <img src = 'login.png' width=70 length=70 > 
+                    <select class='member'>
+                        <option value = '로그인창.html'>로그인하기</option>
+                        <option value = '로그인창.html'>회원가입하기</option>
+                    </select>
         </div>
     </nav>
 <!--------------------------------------------------------------------------------------------->
@@ -55,7 +58,20 @@
     <article class='문의사항'>
 
         <article class='문의'>
-            <h3>문의글</h3>
+            <h3>문의사항은 댓글로 달아주세요</h3>
+            <div id="disqus_thread"></div>
+<script>
+   
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://club-5.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
         </article>
  </article>  
 
