@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>UntactHynu</title>
     <link rel="stylesheet" href="style.css">
-    <sciprt src="./main.js"></sciprt>
+         
 </head>
 
 <body>
@@ -14,31 +14,27 @@
 
         <div class='logo'>    
         <a href = "index.html">
-        <img src='logo.png' width=300 length=200>
+        <img id = 'logos' src='logo.png'  width=300 length=200>
         
         </a>
         </div>
         
         <div class = 'menu'>
-            <li><a href = '공지사항.html'>공지사항</a></li>
-            <li><a href = '문의사항.html'>문의사항</a></li>
-            <li><a href = '커뮤니티.html' >커뮤니티</a></li>
-     
-            <li><a href = '동방vr.html' >동방vr체험</a></li>
-       
+            <li><a href='공지사항.html' id='1'>공지사항</a></li>
+            <li><a href='문의사항.html' id='2'>문의사항</a></li>
+            <li><a href='커뮤니티.html' id='3'>커뮤니티</a></li>
+            <li><a href='동방vr.html' id='4'>동방vr체험</a></li>
+
        </div>
     
-        <div class ='login'>
-        <img src = 'login.png' width=70 length=70 > 
-            <select class='member'>
-                <option value = '로그인창.html'>로그인하기</option>
-                <option value = '로그인창.html'>회원가입하기</option>
-            </select>
+       <div class ='mode'>
+        <button onclick='darkmode()' id='darkmode' >Dark Mode</button>
 
-        </div>
+       
+        </div> 
     </nav>
 
-
+<!--여기 위까지 같아------------------------------------------------------------------------->
     <section class='course'>
         <article class='head'>
 
@@ -46,11 +42,8 @@
                 <h1>Courses</h1>
             </div>
 
-            
-            <div class='search'>
-                <input type='text' id= 'search' placeholder='Search'>  
-                <input type='button' id='search_button' value='검색'>             
-            </div>
+           
+
         </article>
 
     
@@ -64,33 +57,42 @@
 
         <article class='videos'>
             <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>현우회 첫번째 영상</h3>
+            <h3>현우회 두번째 영상</h3>
         </article>
         <article class='videos'>
             <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>현우회 첫번째 영상</h3>
+            <h3>현우회 세번째 영상</h3>
         </article>
         <article class='videos'>
             <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>현우회 첫번째 영상</h3>
+            <h3>현우회 네번째 영상</h3>
         </article>
         <article class='videos'>
             <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>현우회 첫번째 영상</h3>
+            <h3>현우회 다섯번째 영상</h3>
         </article>
         <article class='videos'>
             <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>현우회 첫번째 영상</h3>
+            <h3>현우회 여섯번째 영상</h3>
+        </article>
+        <article class='videos'>
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>현우회 일곱번째 영상</h3>
+        </article>
+        <article class='videos'>
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>현우회 여덟번째 영상</h3>
+        </article>
+        <article class='videos'>
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/2RcBqbo-Mms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>현우회 아홉번째 영상</h3>
         </article>
 
-        
 
-  
-
-    </article>  
+  </article>  
 
     </section>
-        
+        <!------------------------------------------------------------------------------------------>
 <footer class='floor'>
     <section>
 
@@ -102,12 +104,18 @@
 
 
         <div class='ccl'>
-        <image src='ccl.jpg'>
+        <image src='ccl.png' id='ccls'>
         </div>
         </image>
     </section>
 </footer>
-       
+     
+<script src="./main.js" defer></script>  
+
+
+
+
+
 </body>
 
 
