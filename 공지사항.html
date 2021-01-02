@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>UntactHynu</title>
     <link rel="stylesheet" href="style.css">
-    <sciprt src="./main.js"></sciprt>
+         
 </head>
 
 <body>
@@ -14,29 +14,24 @@
 
         <div class='logo'>    
         <a href = "index.html">
-        <img src='logo.png' width=300 length=200>
+        <img id = 'logos' src='logo.png'  width=300 length=200>
         
         </a>
         </div>
         
         <div class = 'menu'>
-            <li><a href = '공지사항.html'>공지사항</a></li>
-            <li><a href = '문의사항.html'>문의사항</a></li>
-            <li><a href = '커뮤니티.html' >커뮤니티</a></li>
-  
-            <li><a href = '동방vr.html' >동방vr체험</a></li>
-       
+            <li><a href='공지사항.html' id='1'>공지사항</a></li>
+            <li><a href='문의사항.html' id='2'>문의사항</a></li>
+            <li><a href='커뮤니티.html' id='3'>커뮤니티</a></li>
+            <li><a href='동방vr.html' id='4'>동방vr체험</a></li>
+
        </div>
     
-        <div class ='login'>
-            <div class ='login'>
-                <img src = 'login.png' width=70 length=70 > 
-                    <select class='member'>
-                        <option value = '로그인창.html'>로그인하기</option>
-                        <option value = '로그인창.html'>회원가입하기</option>
-                    </select>
-            </a>
-        </div>
+       <div class ='mode'>
+        <button onclick= 'darkmode()' id='darkmode' >Dark Mode</button>
+
+       
+        </div> 
     </nav>
 <!--------------------------------------------------------------------------------------------->
 
@@ -47,11 +42,7 @@
                 <h1>Notice</h1>
             </div>
 
-            
-            <div class='search'>
-                <input type='text' id= 'search' placeholder='Search'>  
-                <input type='button' id='search_button' value='검색'>             
-            </div>
+       
         </article>
 
     
@@ -59,30 +50,50 @@
     <article class='공지상황'>
 
         <article class='공지'>
-            <h3>공지</h3>
+            <article id='공지0'>
+                공지
+            </article>
+            <article id = '공지1'>
+                <a href = '공지1.html'>
+                001 |         Covid-19 으로 인한 비대면 교육 실시 & 교육 일정
+            </a>
+            </article>
+            <article id = '공지2'>
+                <a href ='공지2.html'>
+                002 |         동아리 기타 대여 관련 안내 
+            </a>
+            </article>
+
         </article>
  </article>  
 
     </section>
     <!-------------------------------------------------------------------------------------------->
-<footer class='floor'>
-    <section>
-
-        <div class = 'information'>
-            홈페이지 관련 문의 : junior0614@naver.com<br>
-            <br>
-            Copyright ⓒ 서강대학교 현우회 All Rights Reserved
-        </div>
-
-
-        <div class='ccl'>
-        <image src='ccl.jpg'>
-        </div>
-        </image>
-    </section>
-</footer>
-       
-</body>
-
-
-</html>
+    <footer class='floor'>
+        <section>
+    
+            <div class = 'information'>
+                홈페이지 관련 문의 : junior0614@naver.com<br>
+                <br>
+                Copyright ⓒ 서강대학교 현우회 All Rights Reserved
+            </div>
+    
+    
+            <div class='ccl'>
+            <image src='ccl.png' id='ccls'>
+            </div>
+            </image>
+        </section>
+    </footer>
+         
+    <script src="./main.js" defer></script>  
+    
+    
+    
+    
+    
+    </body>
+    
+    
+    </html>
+    

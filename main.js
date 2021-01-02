@@ -17,15 +17,17 @@ var d=document.getElementById('4');
 if (button.innerHTML=='Dark Mode'){
     button.innerHTML='Light Mode';
     document.getElementById('logos').src='logo2.png';
+    button.style.cssText ='background-color : rgb(96, 162, 206) ; color : black';
+    a.style.cssText='color : rgb(96,162,206)';
+    b.style.cssText='color : rgb(96,162,206)';
+    c.style.cssText='color : rgb(96,162,206)';
+    d.style.cssText='color : rgb(96,162,206)';
     document.getElementById('ccls').src='ccl2.png';
     document.getElementById('공지0').style.cssText='background-color : rgb(96, 162, 206); color : black';
     document.getElementById('공지1').style.cssText='background-color : rgb(59, 91, 138); color : black';
     document.getElementById('공지2').style.cssText='background-color : rgb(59, 91, 138); color : black';
     button.style.cssText ='background-color : rgb(96, 162, 206); color : black';
-    a.style.cssText='color : rgb(96,162,206)';
-    b.style.cssText='color : rgb(96,162,206)';
-    c.style.cssText='color : rgb(96,162,206)';
-    d.style.cssText='color : rgb(96,162,206)';
+    
 
 } else {
     button.innerHTML='Dark Mode';
@@ -35,9 +37,12 @@ if (button.innerHTML=='Dark Mode'){
     b.style.cssText='color : black';
     c.style.cssText='color : black';
     d.style.cssText='color : black';
+    document.getElementById('ccls').src='ccl.png';
     document.getElementById('공지0').style.cssText='background-color: gray; color : white';
     document.getElementById('공지1').style.cssText='background-color : white; color : black';
     document.getElementById('공지2').style.cssText='background-color : white; color : black';
+   
+    
 }
 }
 
